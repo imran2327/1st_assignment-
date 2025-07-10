@@ -1,239 +1,238 @@
-
-
 .inter_logo {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
 }
 
 .open_sans_Raleway {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-body{
+body {
     background-color: rgba(182, 182, 211, 0.384);
 }
 
 /* header */
 
-header{
-    
-     margin: 0 auto;
-     background-image: url(Assets/Hero-bg.png);
+header {
+
+    margin: 0 auto;
+    background-image: url(Assets/Hero-bg.png);
 }
 
-.hader_main{
-    max-width: 1440px;;
-    margin: 0 auto ;
+.hader_main {
+    max-width: 1440px;
+    ;
+    margin: 0 auto;
     padding: 0 10px;
 }
 
-.logo{
+.logo {
     font-size: 34px;
-    color:blue ;
+    color: blue;
 }
 
 
 
-button{
-      font-size: 16px;
+button {
+    font-size: 16px;
     padding: 7px 18px;
     background-color: blue;
-    color:white ;
+    color: white;
     border: none;
     border-radius: 5px;
     transition: all 0.5s;
 }
 
 
-button:hover{
-    background-color:white;
-    color:black;
-    box-shadow: 0 5px 5px 0px blue ;
+button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 5px 5px 0px blue;
 }
 
 
-header div nav{
+header div nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header p{
+header p {
     font-size: 64px;
     font-weight: 600;
     text-align: center;
-    
+
 }
 
 
-.bannar_text p{
+.bannar_text p {
     max-width: 900px;
-    margin:40px auto;
+    margin: 40px auto;
 }
 
-.bannar_text{
+.bannar_text {
     margin: 150px 0;
 }
 
-.btn_2{
+.btn_2 {
     margin-bottom: 170px;
 }
 
 
-.bannar_text{
+.bannar_text {
     width: 100%;
     text-align: center;
 }
 
 /* main */
 
-main section h2{
-  font-size: 42px;
+main section h2 {
+    font-size: 42px;
 }
 
-main section p{
+main section p {
     font-size: 24px;
-    color:rgb(94, 94, 94)
+    color: rgb(94, 94, 94)
 }
 
-section img{
+section img {
     border-radius: 15px;
 }
 
-.main_header{
+.main_header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner_2{
+.banner_2 {
     background-color: rgba(0, 0, 255, 0.205);
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 10px 200px;
-    border-radius:15px;
+    border-radius: 15px;
     margin: 200px 0;
-   
-}
-
-.banner_2 h4{
-font-size: 60px;
-color: blue;
-margin-top: -20px;
 
 }
 
-.banner_2 p{
+.banner_2 h4 {
+    font-size: 60px;
+    color: blue;
+    margin-top: -20px;
+
+}
+
+.banner_2 p {
     color: rgb(129, 129, 129);
     margin-top: -50px;
-    
+
 }
 
 
 
-.Joined{
+.Joined {
     font-size: 38px;
 }
 
-.extra_1{
+.extra_1 {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .card_s .stars img {
     width: 20px;
-   
+
 }
 
-.card_s a img{
+.card_s a img {
     width: 60px;
-     border-radius: 50%;
-    
+    border-radius: 50%;
+
 }
 
-.card_s p{
+.card_s p {
     font-size: 16px;
 }
 
-.profile{
+.profile {
     display: flex;
     align-items: center;
-     gap: 15px;
+    gap: 15px;
 
 }
 
-.name h4{
+.name h4 {
     color: rgb(97, 97, 97);
 }
 
-.name h5{
+.name h5 {
     color: rgb(177, 177, 177);
 }
 
-.main_card{
+.main_card {
     display: flex;
     gap: 10px;
 }
 
-.card_s{
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
-   border-radius: 20px;
-   padding: 35px 20px;
+.card_s {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    padding: 35px 20px;
 }
 
-.dawn_hero h2{
-  font-size: 50px;
+.dawn_hero h2 {
+    font-size: 50px;
 }
 
-.dawn_hero p{
+.dawn_hero p {
     font-size: 18px;
     color: rgb(94, 94, 94);
 }
 
-.dawn_hero{
+.dawn_hero {
     text-align: center;
     margin: 200px 0;
 }
 
-.dawn_hero img{
-   margin-top: 18px;
-   border-radius: 25px;
+.dawn_hero img {
+    margin-top: 18px;
+    border-radius: 25px;
 }
 
-.dawn_hero{
-   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-   border-radius: 20px;
-   padding: 35px 20px;
+.dawn_hero {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 20px;
+    padding: 35px 20px;
 }
 
-.input{
+.input {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.input_fild h2{
+.input_fild h2 {
     font-size: 90px;
 }
 
-.input_fild{
+.input_fild {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-input{
+input {
     height: 40px;
     width: 400px;
     border: 1px solid rgb(212, 212, 212);
@@ -243,15 +242,53 @@ input{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-textarea{
-      height: 150px;
+textarea {
+    height: 150px;
     width: 400px;
     border: 1px solid rgb(212, 212, 212);
     border-radius: 10px;
-     padding: 10px 10px;
-     box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+    padding: 10px 10px;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 
+.footer-h2 {
+    font-size: 200px;
+    color: blue;
+}
 
+footer p {
+    color: rgb(114, 114, 114);
+    font-size: 18px;
 
+}
 
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.last_div {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+footer .last_div p {
+    margin-top: -150px;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+
+}
