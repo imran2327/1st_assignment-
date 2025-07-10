@@ -17,6 +17,8 @@
     "wdth" 100;
 }
 
+/* header */
+
 header{
     
      margin: 0 auto;
@@ -34,8 +36,10 @@ header{
     color:blue ;
 }
 
-header div button{
-    font-size: 16px;
+
+
+button{
+      font-size: 16px;
     padding: 7px 18px;
     background-color: blue;
     color:white ;
@@ -44,9 +48,10 @@ header div button{
     transition: all 0.5s;
 }
 
-header div button:hover{
+
+button:hover{
     background-color:white;
-    color: blue;
+    color:black;
     box-shadow: 0 5px 5px 0px blue ;
 }
 
@@ -83,4 +88,106 @@ header p{
     width: 100%;
     text-align: center;
 }
+
+/* main */
+
+main section h2{
+  font-size: 42px;
+}
+
+main section p{
+    font-size: 24px;
+    color:rgb(94, 94, 94)
+}
+
+section img{
+    border-radius: 15px;
+}
+
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_2{
+    background-color: rgba(0, 0, 255, 0.205);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 200px;
+    border-radius:15px;
+    margin: 200px 0;
+   
+}
+
+.banner_2 h4{
+font-size: 60px;
+color: blue;
+margin-top: -20px;
+
+}
+
+.banner_2 p{
+    color: rgb(129, 129, 129);
+    margin-top: -50px;
+    
+}
+
+
+
+.Joined{
+    font-size: 38px;
+}
+
+.extra_1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card_s .stars img {
+    width: 20px;
+   
+}
+
+.card_s a img{
+    width: 60px;
+     border-radius: 50%;
+    
+}
+
+.card_s p{
+    font-size: 16px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+     gap: 15px;
+
+}
+
+.name h4{
+    color: rgb(97, 97, 97);
+}
+
+.name h5{
+    color: rgb(177, 177, 177);
+}
+
+.main_card{
+    display: flex;
+    gap: 10px;
+}
+
+.card_s{
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+   border-radius: 20px;
+   padding: 35px 20px;
+}
+
+
+
 
