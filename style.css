@@ -40,99 +40,199 @@ header {
 }
 
 @media screen and (max-width: 425px) {
-    .logo{
+    .logo {
         font-size: 20px;
     }
 
-    .bannar_text p{
+    .bannar_text p {
         font-size: 25px;
     }
 
-    .main_header section img{
+    .main_header section img {
         width: 150px;
     }
 
-    .main_header h2{
+    .main_header h2 {
         font-size: 25px;
     }
 
-    .main_header p{
+    .main_header p {
         font-size: 15px;
     }
 
-    .main_header button{
+    .main_header button {
         font-size: 10px;
     }
 
-    #banner_1 h2{
+    #banner_1 h2 {
         font-size: 20px;
     }
 
-    #banner_1{
-       padding: 5px 15px;
+    #banner_1 {
+        padding: 5px 15px;
     }
 
-    #banner_1 h4{
+    #banner_1 h4 {
         font-size: 25px;
     }
 
-    .extra_1 div p{
-        font-size:10px;
-        margin-top:-10px;
+    .extra_1 div p {
+        font-size: 10px;
+        margin-top: -10px;
     }
 
-    .extra_1{
+    .extra_1 {
         font-size: 20px;
     }
 
-    .main_card{
+    .main_card {
         display: flex;
         flex-direction: column;
     }
 
-    #id_2 h2{
+    #id_2 h2 {
         font-size: 30px;
     }
 
-    #id_2 p{
+    #id_2 p {
         font-size: 15px;
     }
 
-    #id_2{
+    #id_2 {
         padding: 10px 5px;
     }
 
-   .input_fild{
-    display: flex;
-    flex-direction: column;
-   }
+    .input_fild {
+        display: flex;
+        flex-direction: column;
+    }
 
-   main .input_fild h2{
-    font-size: 40px;
-    text-align: center;
-   }
+    main .input_fild h2 {
+        font-size: 40px;
+        text-align: center;
+    }
 
-    main .input_fild .input input  {
+    main .input_fild .input input {
         width: 280px;
     }
 
-     main .input_fild .input textarea{
+    main .input_fild .input textarea {
         width: 280px
-     }
+    }
 
-     footer .last_div .footer-h2{
+    footer .last_div .footer-h2 {
         font-size: 50px;
-     }
-   
-     #last_id{
-        font-size: 15px;
-     }
+    }
 
-     #unorder{
-       font-size: 13px;
-       display: flex;
-       justify-content:space-around;
-     }
+    #last_id {
+        font-size: 15px;
+    }
+
+    #unorder {
+        font-size: 13px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .logo {
+        font-size: 40px;
+    }
+
+    .bannar_text p {
+        font-size: 45px;
+    }
+
+    .main_header section img {
+        width: 250px;
+    }
+
+    .main_header h2 {
+        font-size: 35px;
+    }
+
+    .main_header p {
+        font-size: 15px;
+    }
+
+    .main_header button {
+        font-size: 15px;
+    }
+
+    #banner_1 h2 {
+        font-size: 30px;
+    }
+
+    #banner_1 {
+        padding: 5px 55px;
+    }
+
+    #banner_1 h4 {
+        font-size: 45px;
+    }
+
+    .extra_1 div p {
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+    .extra_1 {
+        font-size: 20px;
+    }
+
+    .main_card {
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .card_s{
+        min-width: 250px;
+    }
+
+    #id_2 h2 {
+        font-size: 40px;
+    }
+
+    #id_2 p {
+        font-size: 15px;
+    }
+
+    #id_2 {
+        padding: 10px 5px;
+    }
+
+    .input_fild {
+        display: flex;
+        
+    }
+
+    main .input_fild h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    main .input_fild .input input {
+        width: 280px;
+    }
+
+    main .input_fild .input textarea {
+        width: 280px
+    }
+
+    footer .last_div .footer-h2 {
+        font-size: 50px;
+    }
+
+    #last_id {
+        font-size: 15px;
+    }
+
+    #unorder {
+        font-size: 18px;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 button {
@@ -379,7 +479,7 @@ footer ul {
 }
 
 footer .last_div p {
-    margin-top:px;
+    margin-top: px;
 }
 
 footer {
