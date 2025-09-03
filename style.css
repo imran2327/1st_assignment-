@@ -199,3 +199,15 @@ section main{
     
     
 }
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+.info div h4{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
