@@ -225,9 +225,10 @@ section main{
     font-weight: 400;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .info {
-      flex-direction: column;
+      display: flex;
+        flex-direction: column;
     }
     
 }
@@ -238,5 +239,11 @@ section main{
        grid-template-columns: 2fr 2fr;
        gap: 20px;
     }
+
+    .main_contenr_1{
+        border: 50px solid  antiquewhite;
+    }
+
+    
     
 }
